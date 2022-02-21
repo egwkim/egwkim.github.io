@@ -1,0 +1,13 @@
+/* Dark mode */
+body.dark-mode {
+    background-color: #222420;
+    color: #e9e7d5;
+  }
+  
+  body.dark-mode a {
+    color: #8ab4f8;
+  }
+  
+  body.dark-mode a:visited {
+    color: #c58af9;
+  }
