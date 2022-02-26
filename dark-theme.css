@@ -1,13 +1,18 @@
 /* Dark mode */
 body.dark-mode {
-    background-color: #1c1e1a;
-    color: #e9e7e5;
-  }
-  
-  body.dark-mode a {
-    color: #8ab4f8;
-  }
-  
-  body.dark-mode a:visited {
-    color: #c58af9;
-  }
+  background-color: #1c1e1a;
+  color: #e9e7e5;
+}
+
+body.dark-mode * {
+  background-color: #1c1e1a;
+  color: #e9e7e5
+}
+
+body.dark-mode a {
+  color: #8ab4f8;
+}
+
+body.dark-mode a:visited {
+  color: #c58af9;
+}
