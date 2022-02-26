@@ -40,7 +40,7 @@ function toggleSettings() {
 }
 
 function updateStyle() {
-  styleSheet.innerHTML = `.trail{${trailStyle}}\n.trailText{${trailTextStyle}}`;
+  styleSheet.innerHTML = `.trail{${trailStyle}}\n.trail-text{${trailTextStyle}}`;
   document.body.appendChild(styleSheet);
 }
 
@@ -48,7 +48,7 @@ function addTrail(x, y) {
   let trail = document.createElement('div');
   if (trailText) {
     let textDiv = document.createElement('div');
-    textDiv.className = 'trailText';
+    textDiv.className = 'trail-text';
     textDiv.innerText = trailText;
     trail.appendChild(textDiv);
   }
