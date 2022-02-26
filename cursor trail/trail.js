@@ -1,6 +1,6 @@
 let trailText = '🤔';
-let xOffset = -3;
-let yOffset = -3;
+let xOffset = -20;
+let yOffset = -20;
 
 let trailStyle = 'height: 40px;\nwidth: 40px;\nborder-radius: 20px;\n\ncolor: black;\nbackground-color: #0881 !important;\n';
 let trailTextStyle =
