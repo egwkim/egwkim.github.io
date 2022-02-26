@@ -1,8 +1,8 @@
-let trailText = 'a';
+let trailText = '🤔';
 let xOffset = -3;
 let yOffset = -3;
 
-let trailStyle = 'height: 6px;\nwidth: 6px;\nborder-radius: 3px;\n\ncolor: black;\nbackground-color: teal !important;\n';
+let trailStyle = 'height: 40px;\nwidth: 40px;\nborder-radius: 20px;\n\ncolor: black;\nbackground-color: #0881 !important;\n';
 let trailTextStyle =
   'position: absolute;\nleft: 50%;\ntop: 50%;\ntransform: translate(-50%,-50%);\ntext-align: center;\nbackground-color: transparent !important\n';
 let styleSheet = document.createElement('style');
