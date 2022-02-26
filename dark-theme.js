@@ -21,14 +21,9 @@ function toggleTheme() {
 function checkTheme() {
   const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
   const currentTheme = localStorage.getItem('theme');
-  if (
-    (currentTheme != 'light' && prefersDarkScheme.matches) ||
-    currentTheme == 'dark'
-  ) {
+  if ((currentTheme != 'light' && prefersDarkScheme.matches) || currentTheme == 'dark') {
     setTheme('dark');
-    document.getElementById('theme-checkbox').checked = true;
   } else {
     setTheme('light');
-    document.getElementById('theme-checkbox').checked = false;
   }
 }
