@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="trail.css" />
     <link rel="stylesheet" href="../dark-theme.css" />
     <script src="../dark-theme.js"></script>
+    <script src="settings.js"></script>
   </head>
   <body>
-    <div>
+    <button onclick="defaultSettings();">default</button>
+    <button onclick="toggleSettings();">customize</button>
+    <div id="settings" style="display: none">
       <p>
         trail style<br />
         <textarea id="trail-style" cols="40" rows="15" onchange="trailStyle=this.value;updateStyle();"></textarea>
@@ -28,6 +31,5 @@
       checkTheme();
     </script>
     <script src="trail.js"></script>
-    <script src="loadSettings.js"></script>
   </body>
 </html>

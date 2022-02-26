@@ -4,7 +4,7 @@ body.dark-mode {
   color: #e9e7e5;
 }
 
-body.dark-mode * {
+input, textarea {
   background-color: #1c1e1a;
   color: #e9e7e5
 }
