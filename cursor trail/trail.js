@@ -17,7 +17,7 @@ function defaultSettings() {
 
   trailStyle = 'height: 40px;\nwidth: 40px;\nborder-radius: 20px;\nbackground-color: #0881;\n';
   trailTextStyle =
-    'position: absolute;\nleft: 50%;\ntop: 50%;\ntransform: translate(-50%,-50%);\ntext-align: center;\nbackground-color: transparent\n';
+    'position: absolute;\nleft: 50%;\ntop: 50%;\ntransform: translate(-50%,-50%);\ntext-align: center;\nbackground-color: transparent;\n';
 
   loadSettings();
 }
