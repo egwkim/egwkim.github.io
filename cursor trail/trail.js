@@ -107,11 +107,10 @@ let cursorY = 0;
 let travledDistance = 0;
 
 addEventListener('mousemove', (event) => {
+  travledDistance += Math.sqrt((cursorX - event.pageX) ** 2 + (cursorY - event.pageY) ** 2);
   if (travledDistance > 5) {
     addTrail(event.pageX, event.pageY);
     travledDistance = 0;
-  } else {
-    travledDistance += Math.sqrt((cursorX - event.pageX) ** 2 + (cursorY - event.pageY) ** 2);
   }
   cursorX = event.pageX;
   cursorY = event.pageY;
